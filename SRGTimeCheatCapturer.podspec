@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
       "Library/**/*.{h,m}"
   ]
   s.requires_arc = true
-  s.dependency 'Reachability' , '3.2'
+  s.dependency 'Reachability' , '3.7'
   s.prefix_header_contents = <<EOC
 #import <Availability.h>
 #define NTP_Logging(fmt, ...)
